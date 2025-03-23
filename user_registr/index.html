@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="HB">
+            <a class="Meetly" href="https://www.google.com.ua/">Meetly</a>
+            <a class="gmail" href="https://www.google.com.ua/"><img src="./image/Group.png" alt="mail"></a>
+            <a class="pr" href="https://www.google.com.ua/"><img src="./image/profile.png" alt="profile"></a>
+        </section>
+    </header>
+    <main>
+        <h1>Реєстрація</h1>
+        
+    <form id="registrationForm" enctype="multipart/form-data">
+        <section class="mail">
+                <label>Електронна адреса</label>
+                <input type="email" name="email" class="inp1" placeholder="Email" required>
+            </section>
+            <section class="name">
+                <label>Логін</label>
+                <input type="text" name="name" class="inp2" placeholder="Ім'я" required>
+            </section>
+            <section class="password">
+                <label>Пароль</label>
+                <label class="pt">не менше 6 символів, 1 цифра, 1 літера
+                    Короткий опис з головної сторінк</label>
+                <input type="password" name="password" class="inp3" placeholder="Пароль" required>
+
+            </section>
+            <section class="rp">
+                <label>Повторіть пароль</label>
+                <input id="signup-repass" type="password" class="rpass" placeholder="Введіть пароль">
+            </section>
+            <section class="PIB">
+                <label>ПІБ</label>
+                <input type="text" name="full_name" class="PIB1" placeholder="ПІБ" required>
+            </section>
+            <section class="date">
+                <label>Дата народження</label>
+                <input type="date" class="date-input" name="birth_date" required>
+            </section>
+            <section class="upload-container photo">
+                <label class="fotoP">Фото профілю</label>
+                <label for="file-input" class="camera-icon">
+                    <img id="button-image" src="/registr/image/Group 1.png" alt="Вибір фото">
+                </label>
+                <input type="file" id="file-input" name="photo" accept="image/*" required>                
+            </section>
+            <section>
+                <button type="submit" class="button" id="signup-submit">Створити профіль</button>
+            </section>
+        </form>
+    </main>
+    <footer class="FC">
+        <div>
+            <p class="fn">Meetly</p>
+        </div>
+        <nav class="navig">
+            <ul>
+              <li><a href="https://www.facebook.com/"><img src="/image/FB.png" alt=""></a></li>
+              <li><a href="https://ua.linkedin.com/"><img src="/image/Icon.png" alt=""></a></li>
+              <li><a href="https://www.instagram.com/"><img src="/image/INST.png" alt=""></a></li>
+              <li><a href="https://www.youtube.com/"><img src="/image/YT.png" alt=""></a></li>
+            </ul>
+          </nav>
+          <lists class="t1">
+            <ul>
+                <li>Topic</li>
+                <li><a href="https://www.google.com.ua/">Page</a></li>
+                <li><a href="https://www.google.com.ua/">Page</a></li>
+                <li><a href="https://www.google.com.ua/">Page</a></li>
+            </ul>
+          </lists>         
+          <lists class="t2">
+            <ul>
+                <li>Topic</li>
+                <li><a href="https://www.google.com.ua/">Page</a></li>
+                <li><a href="https://www.google.com.ua/">Page</a></li>
+                <li><a href="https://www.google.com.ua/">Page</a></li>
+            </ul>
+          </lists>
+          <lists class="t3">
+            <ul>
+                <li>Topic</li>
+                <li><a href="https://www.google.com.ua/">Page</a></li>
+                <li><a href="https://www.google.com.ua/">Page</a></li>
+                <li><a href="https://www.google.com.ua/">Page</a></li>
+            </ul>
+          </lists>
+    </footer>
+    
+    
+    <script src="scrypt.js"></script>
+    
+</body>
+</html>
